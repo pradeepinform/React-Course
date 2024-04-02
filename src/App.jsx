@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from './component/Header'
+import React from 'react';
+import Navbar from './component/header/Navbar';
+import TextForm from './component/text/TextForm';
+
+
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <TextForm text={"This is Headline all about Below"}/>
     </div>
   )
 }
