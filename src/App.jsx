@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <TextForm text={"This is Headline all about Below"}/>
+      <TextForm text="Enter the Any Text Analyze Below" textform="Text-Form"/>
     </div>
   )
 }
